@@ -47,7 +47,7 @@ sudo service mysql restart
 mysql -u root -p
 ```
 Then Enter password 'root' and press Enter
-and now ceate one new user by giving following commands
+and now create one new user by giving following commands
 ```bash
 CREATE USER 'user'@'%' IDENTIFIED WITH mysql_native_password BY 'user';
 ```
@@ -72,5 +72,5 @@ To see your OS version
 ```bash
 cat /etc/issue
 ```
-Now Open your MySql Workbench and in Hostname Enter your AWS EC2 instance IP address, enter username: which is we created with name 'user' and password: 'user'
+Now Open your MySql Workbench and in Hostname Enter your AWS EC2 instance public IP address, enter username: which is we created with name 'user' and password: 'user'
 and Click on Test Connection
