@@ -63,3 +63,9 @@ and add Following Rule
 Mysql/Auora     3306     Anywhere from IPV4
 ```
 and Save it
+To see your OS version
+```bash
+cat /etc/issue
+```
+Now Open your MySql Workbench and in Hostname Enter your AWS EC2 instance IP address, enter username: which is we created with name 'user' and password: 'user'
+and Click on Test Connection
