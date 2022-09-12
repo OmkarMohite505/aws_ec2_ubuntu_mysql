@@ -44,6 +44,11 @@ bind-address = 0.0.0.0
 sudo service mysql restart
 ```
 ```bash
+mysql -u root -p
+```
+Then Enter password 'root' and press Enter
+and now ceate one new user by giving following commands
+```bash
 CREATE USER 'user'@'%' IDENTIFIED WITH mysql_native_password BY 'user';
 ```
 ```bash
