@@ -63,11 +63,9 @@ To delte user, Meaning :DROP USER 'username'@'host';
 ```bash
 DROP USER 'root'@'%';
 ```
-
-
-
-
-
+```bash
+ FLUSH PRIVILEGES;
+```
 
 
 ## Security Change needed in AWS
