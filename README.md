@@ -51,8 +51,17 @@ and now create one new user by giving following commands
 ```bash
 CREATE USER 'user'@'%' IDENTIFIED WITH mysql_native_password BY 'user';
 ```
+Give Permissions to user
 ```bash
 GRANT ALL PRIVILEGES ON *.* TO 'user'@'%' WITH GRANT OPTION;
+```
+To list out users 
+```bash
+select user, host from mysql.user;
+```
+To delte user, Meaning :DROP USER 'username'@'host';
+```bash
+DROP USER 'root'@'%';
 ```
 
 
